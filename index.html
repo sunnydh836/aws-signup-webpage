@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://img.icons8.com/color/48/amazon-web-services.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS Builder Signup Drive</title>
+    <meta name="description" content="Official AWS Builder Signup Drive. Follow the steps carefully: Watch the Tutorial, Create Your AWS Builder Account, and Fill out the Confirmation Form." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <div class="logo-area">
+            <div class="aws-logo-container">
+              <svg viewBox="0 0 24 24" class="aws-logo" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm1.758 17.525c-1.42.348-3.033.456-4.316.035-1.127-.37-1.89-1.173-1.868-2.227.021-1.043.837-1.761 1.956-2.076 1.25-.353 3.033-.283 4.228-.098v.674c0 .87-.12 1.956-1.141 2.37-.5.201-1.163.266-1.717.108-.555-.157-.968-.538-.973-.978h-1.282c.01 1.109.957 2.01 2.19 2.217.973.163 2.12-.033 2.82-.69.664-.62.69-1.57.69-2.484v-4.103c0-.777.06-1.44.407-2.06h-1.157c-.125.32-.234.782-.288 1.147-1.125-.924-2.734-1.25-4.043-.919-1.756.44-2.826 1.777-2.8 3.516.028 1.772 1.294 2.864 2.946 3.195 1.402.283 3.13-.021 4.348-.924v1.332zM12.163 12.8c-.875-.12-1.924-.136-2.69.174-.636.255-.99.707-.995 1.25-.005.549.337 1.016.995 1.185.739.19 1.831.108 2.69-.168V12.8zm6.549 3.049c.288-.348.5-.772.636-1.217h-1.25a2.21 2.21 0 0 1-.353.64c-.283.332-.712.511-1.147.511-.902 0-1.451-.62-1.451-1.745v-.06h4.201v-.538c0-2.315-1.13-3.69-3.234-3.69-2.022 0-3.326 1.484-3.326 3.864 0 2.261 1.196 3.734 3.234 3.734 1.185 0 2.196-.549 2.94-1.5zM14.516 13.56c0-.984.516-1.587 1.277-1.587.728 0 1.207.57 1.25 1.587h-2.527z"/>
+              </svg>
+            </div>
+            <span class="badge">AWS Student Hub</span>
+          </div>
+          <h1>AWS Builder Signup Drive</h1>
+          <p class="subtitle">Complete the signup by following the steps below carefully.</p>
+        </div>
+      </header>
+
+      <!-- Progress Section -->
+      <section class="progress-section" aria-label="Signup Progress">
+        <div class="container">
+          <div class="progress-steps">
+            <div class="step-indicator active" id="step-ind-1" data-step="1">
+              <div class="step-num">1</div>
+              <div class="step-text">Watch Tutorial</div>
+            </div>
+            <div class="step-line" id="step-line-1"></div>
+            <div class="step-indicator" id="step-ind-2" data-step="2">
+              <div class="step-num">2</div>
+              <div class="step-text">Create Account</div>
+            </div>
+            <div class="step-line" id="step-line-2"></div>
+            <div class="step-indicator" id="step-ind-3" data-step="3">
+              <div class="step-num">3</div>
+              <div class="step-text">Fill Form</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Steps Container -->
+      <main class="main-content container">
+        
+        <!-- Step 1 Card -->
+        <section class="card step-card active" id="step-card-1" aria-labelledby="step-1-title">
+          <div class="card-header">
+            <div class="card-step-badge">Step 1</div>
+            <h2 id="step-1-title">Watch the Tutorial</h2>
+          </div>
+          <p class="step-description">First, watch this quick step-by-step video to understand how to create your AWS Builder account correctly and find your username/alias details.</p>
+          
+          <div class="video-wrapper">
+            <video id="tutorial-video" controls preload="metadata">
+              <source id="video-source" src="" type="video/mp4" />
+              Your browser does not support the HTML5 video tag.
+            </video>
+            <div id="video-fallback" class="video-fallback hidden">
+              <div class="fallback-icon">
+                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
+              </div>
+              <h3>Tutorial Video Offline</h3>
+              <p>Please place the video file at <code>/videos/aws-signup-tutorial.mp4</code> inside your public folder to play the tutorial.</p>
+            </div>
+          </div>
+          
+          <div class="card-footer-actions">
+            <button class="btn btn-secondary btn-next" data-next="2">
+              <span>Next: Create Account</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 2 Card -->
+        <section class="card step-card" id="step-card-2" aria-labelledby="step-2-title">
+          <div class="card-header">
+            <div class="card-step-badge">Step 2</div>
+            <h2 id="step-2-title">Create Your AWS Builder Account</h2>
+          </div>
+          <p class="step-description">Open the official signup link and create your AWS Builder account. Read the instructions below carefully before you click.</p>
+
+          <!-- Instruction Box -->
+          <div class="instruction-box">
+            <h3>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="title-icon">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              Important Signup Instructions
+            </h3>
+            <ol>
+              <li>Use a <strong>unique username and alias name for every new signup</strong>. Do not reuse the same username or alias name.</li>
+              <li>When signing up using a mobile phone, open the signup page in <strong>Chrome Desktop Site mode</strong>.
+                <div class="highlight-note">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="note-icon">
+                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                    <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                  </svg>
+                  <span>Chrome on mobile &rarr; Tap three-dot menu &rarr; Select &ldquo;Desktop site&rdquo;</span>
+                </div>
+              </li>
+              <li>After completing the signup, open your AWS Builder profile and copy the exact <strong>username and alias name</strong> shown there.</li>
+              <li>Paste the copied username and alias name into the Google Form.</li>
+              <li>Complete the AWS Builder signup before filling out the Google Form.</li>
+              <li>Enter all details carefully because incorrect username or alias information may cause the submission to be rejected.</li>
+            </ol>
+          </div>
+
+          <div class="action-wrapper">
+            <a id="btn-builder-signup" class="btn btn-primary btn-large ripple" href="#" target="_blank" rel="noopener noreferrer">
+              <span>Create AWS Builder Account</span>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="card-footer-actions">
+            <button class="btn btn-secondary btn-next" data-next="3">
+              <span>Next: Fill Confirmation Form</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <!-- Rewards Section -->
+        <section class="card rewards-card" id="rewards-section" aria-labelledby="rewards-title">
+          <div class="card-header">
+            <span class="card-step-badge rewards-badge">🎁 Rewards</span>
+            <h2 id="rewards-title">Signup Rewards</h2>
+          </div>
+          <p class="step-description">Complete AWS Builder account signups and receive exclusive AWS goodies.</p>
+
+          <!-- Reward Message Highlight Card -->
+          <div class="reward-message-card">
+            <div class="reward-message-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.65-.5-.65C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 20c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 16H4V8h16v12z"/>
+              </svg>
+            </div>
+            <p>Students who successfully create AWS Builder accounts using multiple unique Gmail accounts will be eligible to receive AWS goodies such as official AWS pens and AWS stickers (subject to program availability and verification).</p>
+          </div>
+
+          <!-- Information Banner -->
+          <div class="reward-banner">
+            <span class="banner-emoji">🎉</span>
+            <span class="banner-text">More successful verified signups = More chances to receive AWS goodies.</span>
+          </div>
+
+          <!-- Goodies Gallery Grid -->
+          <div class="goodies-gallery" id="goodies-gallery-container">
+            <!-- Dynamically populated from JS config -->
+          </div>
+
+          <!-- Reward Note Card -->
+          <div class="reward-note-card">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="note-warning-icon">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+              <line x1="12" y1="9" x2="12" y2="13"></line>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            <span>Rewards are subject to successful account verification and availability. Duplicate or invalid signups may not be considered.</span>
+          </div>
+        </section>
+
+        <!-- Step 3 Card -->
+        <section class="card step-card" id="step-card-3" aria-labelledby="step-3-title">
+          <div class="card-header">
+            <div class="card-step-badge">Step 3</div>
+            <h2 id="step-3-title">Fill the Confirmation Form</h2>
+          </div>
+          <p class="step-description">Once your account is successfully created, fill out this Google Form to confirm your signup status and secure your credentials validation.</p>
+
+          <div class="warning-box">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="warning-icon">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+              <line x1="12" y1="9" x2="12" y2="13"></line>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            <span>Do not fill out the Google Form before successfully completing the AWS Builder signup.</span>
+          </div>
+
+          <div class="action-wrapper">
+            <a id="btn-google-form" class="btn btn-primary btn-large ripple" href="#" target="_blank" rel="noopener noreferrer">
+              <span>Fill Google Form</span>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <line x1="10" y1="9" x2="8" y2="9"></line>
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <!-- Help Section Card -->
+        <section class="card help-card" aria-labelledby="help-title">
+          <div class="help-content-wrapper">
+            <div class="help-info-left">
+              <h2 id="help-title">Need Help?</h2>
+              <p>If you face any issues while creating your AWS Builder account or filling out the Google Form, please contact the coordinator immediately.</p>
+              
+              <div class="coordinator-details">
+                <div class="detail-item">
+                  <span class="detail-label">SBCL Name:</span>
+                  <strong class="detail-value" id="coord-name">Loading...</strong>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">WhatsApp/Phone:</span>
+                  <strong class="detail-value" id="coord-phone">Loading...</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="help-actions-right">
+              <a id="btn-whatsapp" class="btn btn-whatsapp ripple" href="#" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" class="whatsapp-icon">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413" />
+                </svg>
+                <span>Chat on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>AWS Builder Signup Drive &bull; Follow every step carefully</p>
+        </div>
+      </footer>
+      <!-- Lightbox Modal -->
+      <div id="lightbox-modal" class="lightbox-modal hidden" role="dialog" aria-modal="true" aria-label="Image Preview">
+        <button id="lightbox-close" class="lightbox-close" aria-label="Close Preview">&times;</button>
+        <div class="lightbox-content">
+          <img id="lightbox-img" src="" alt="Goodies Preview" />
+          <p id="lightbox-caption" class="lightbox-caption"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Include main script -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
